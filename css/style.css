@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.header h1.header-title span {
+  color: red;
+}
+
+.container {
+  padding: 1.5rem;
+}
+
+.container hr.border {
+  color: azure;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container .product-foods {
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+}
+
+.container .product-foods .card-product {
+  width: 300px;
+  height: auto;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.container .product-foods .card-product img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.container .product-foods .card-product .card-body {
+  padding: 0.5rem;
+}
+
+.container .product-foods .card-product .card-body h3.card-title {
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+
+.container .product-foods .card-product .card-body p.card-description {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.container .product-foods .card-product .card-body h4.card-price {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.container .product-foods .card-product .card-body button.card-btn {
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #149a75;
+  color: white;
+}
