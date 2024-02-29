@@ -3,15 +3,117 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tugas CSS - I</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <title>Tugas CSS - II</title>
   </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .header {
+      padding: 1rem;
+      margin-bottom: 1rem;
+      background-color: #149a75;
+    }
+
+    .header h1.header-title {
+      margin-bottom: 1rem;
+      color: white;
+    }
+
+    .header h1.header-title span {
+      font-weight: 400;
+    }
+
+    .header .navigation {
+      padding: 1rem;
+      height: auto;
+      text-align: center;
+    }
+
+    .header .navigation {
+      width: 100%;
+      height: auto;
+    }
+
+    .header .navigation a {
+      text-decoration: none;
+      color: white;
+      margin: 0 1rem;
+    }
+
+    .container {
+      padding: 1.5rem;
+    }
+
+    .container hr.border {
+      color: azure;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .container .products {
+      width: 100%;
+      height: 300px;
+      padding: 1rem;
+      margin-top: 1rem;
+      overflow: auto;
+    }
+
+    .container .products .card-product {
+      width: 300px;
+      height: auto;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      border: 1px solid #149a75;
+    }
+
+    .container .products .card-product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .container .products .card-product .card-body {
+      padding: 0.5rem;
+    }
+
+    .container .products .card-product .card-body h3.card-title {
+      font-size: 18px;
+      margin-bottom: 0.5rem;
+    }
+
+    .container .products .card-product .card-body p.card-description {
+      font-size: 16px;
+      margin-bottom: 1rem;
+    }
+
+    .container .products .card-product .card-body h4.card-price {
+      font-size: 16px;
+      margin-bottom: 1rem;
+    }
+
+    .container .products .card-product .card-body button.card-btn {
+      width: 100%;
+      height: 35px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      background-color: #149a75;
+      color: white;
+    }
+  </style>
   <body>
     <!-- header -->
     <header class="header">
-      <h1 class="header-title">
-        Selamat Datang Di Toko Online <span>Nusantara</span>
-      </h1>
+      <h1 class="header-title">Toko online <span>Nusantara</span></h1>
+      <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
     </header>
     <!-- end header -->
 

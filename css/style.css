@@ -24,7 +24,7 @@
   margin-bottom: 1rem;
 }
 
-.container .product-foods {
+.container .products {
   padding: 1rem;
   margin-top: 1rem;
   width: 100%;
@@ -32,7 +32,7 @@
   overflow: auto;
 }
 
-.container .product-foods .card-product {
+.container .products .card-product {
   width: 300px;
   height: auto;
   padding: 1rem;
@@ -41,31 +41,31 @@
   margin-bottom: 1rem;
 }
 
-.container .product-foods .card-product img {
+.container .products .card-product img {
   width: 100%;
   border-radius: 8px;
 }
 
-.container .product-foods .card-product .card-body {
+.container .products .card-product .card-body {
   padding: 0.5rem;
 }
 
-.container .product-foods .card-product .card-body h3.card-title {
+.container .products .card-product .card-body h3.card-title {
   font-size: 18px;
   margin-bottom: 0.5rem;
 }
 
-.container .product-foods .card-product .card-body p.card-description {
+.container .products .card-product .card-body p.card-description {
   font-size: 16px;
   margin-bottom: 1rem;
 }
 
-.container .product-foods .card-product .card-body h4.card-price {
+.container .products .card-product .card-body h4.card-price {
   font-size: 16px;
   margin-bottom: 1rem;
 }
 
-.container .product-foods .card-product .card-body button.card-btn {
+.container .products .card-product .card-body button.card-btn {
   width: 100%;
   height: 35px;
   border-radius: 8px;
