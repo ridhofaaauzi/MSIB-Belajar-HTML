@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+  background-color: #149a75;
+  padding: 0 4rem;
+}
+
+.header .nav h1.nav-logo {
+  font-size: 56px;
+  color: white;
+}
+
+.header .nav .nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+}
+
+.header .nav .nav-item .nav-link a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.header .nav .nav-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+
+.header .nav .nav-btn button.btn-register {
+  border: none;
+  outline: none;
+  background-color: white;
+  color: #149a75;
+  width: 140px;
+  height: 45px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.header .nav .nav-btn button.btn-login {
+  border: 1px solid white;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  width: 140px;
+  height: 45px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.container {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.container h1.product-title {
+  font-size: 36px;
+  margin-bottom: 3rem;
+  padding: 0 3rem;
+}
+
+.container .products {
+  padding: 0 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 45px;
+}
+
+.container .products .card {
+  width: 100%;
+  height: auto;
+  border: 1px solid #149a75;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.container .products .card img {
+  width: 100%;
+  height: 300px;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+.container .products .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 0 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.container .products .card .card-body h1.card-title {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.container .products .card .card-body p.card-description {
+  font-size: 18px;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+
+.container .products .card .card-body h4.card-price {
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.container .products .card .card-body a.btn-purchase button.btn-transaction {
+  width: 100%;
+  height: 35px;
+  background: transparent;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  background-color: #149a75;
+  cursor: pointer;
+}
+
+/* transaction */
+
+.container main {
+  display: flex;
+  padding: 0 4rem;
+  gap: 25px;
+}
+
+.container main .products-transaction {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 25px;
+}
+
+.container main .products-transaction .card {
+  width: 100%;
+  height: auto;
+  border: 1px solid #149a75;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.container main .products-transaction .card img {
+  width: 100%;
+  height: 300px;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+.container main .products-transaction .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 0 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.container main .products-transaction .card .card-body h1.card-title {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.container main .products-transaction .card .card-body p.card-description {
+  font-size: 18px;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+
+.container main .products-transaction .card .card-body h4.card-price {
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.container
+  main
+  .products-transaction
+  .card
+  .card-body
+  a.btn-purchase
+  button.btn-transaction {
+  width: 100%;
+  height: 35px;
+  background: transparent;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  background-color: #149a75;
+  cursor: pointer;
+}
+
+.container main .form-transaction {
+  width: 50%;
+  height: auto;
+}
+
+.container main .form-transaction .form {
+  width: 100%;
+  height: auto;
+  border: 1px solid #149a75;
+  padding: 1rem;
+  border-radius: 8px;
+  align-self: self-start;
+  position: sticky;
+  top: 150px;
+  left: 0;
+}
+
+.container main .form-transaction .form h1.form-title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container main .form-transaction .form .form-body .form-struk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 2rem;
+}
+
+.container main .form-transaction .form .form-body .form-struk p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container main .form-transaction .form .form-body button.btn-confirm {
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #149a75;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+@media (max-width: 950px) {
+  .header .nav h1.nav-logo {
+    font-size: 42px;
+    color: white;
+  }
+
+  .header .nav .nav-btn {
+    display: none;
+  }
+
+  .container .products {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .container main .products-transaction {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .header .nav h1.nav-logo {
+    font-size: 32px;
+    color: white;
+  }
+
+  .container .products {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .container main {
+    flex-direction: column;
+  }
+
+  .container main .products-transaction {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .container main .form-transaction {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .header .nav h1.nav-logo {
+    font-size: 24px;
+    color: white;
+  }
+
+  .container .products {
+    grid-template-columns: 1fr;
+  }
+
+  .container main .products-transaction {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}
